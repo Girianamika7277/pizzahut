@@ -1,0 +1,74 @@
+.loginForm{
+    width: 40vw;
+    margin : 20px auto;
+    margin-bottom: 50px;
+    
+    margin: 50px auto;
+
+}
+
+.logintext{
+    text-align: center;
+    margin-top: 30px;
+    font-family: cursive;
+}
+
+.namelogo{
+    width: 20vw;
+    height: auto;
+    margin: 20px auto;
+}
+
+.logod{
+    width: 100%;
+    object-fit: cover;
+}
+
+.forbtn{
+    margin-top: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subbtn{
+    width: 150px;
+}
+
+
+@media (max-width: 600px) {
+
+ .loginForm{
+    width: 80vw;
+   
+
+}
+
+.namelogo{
+    width: 50vw;
+    height: auto;
+    margin: 30px auto;
+}
+
+.logintext{
+    font-family: cursive;
+    font-size: 21px;
+    font-weight: 900;
+  
+}
+
+.forbtn{
+    margin-top: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subbtn{
+    width: 150px;
+}
+
+}

@@ -1,0 +1,41 @@
+.registration{
+    width: 50vw;
+    margin: 70px auto;
+
+    
+}
+
+.registrationbtn{
+    width: 20px;
+}
+
+.login-link{
+    display: flex;
+    align-items: baseline;
+}
+
+
+
+.lodders{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.loderImage{
+   
+   width: 150px;
+   height: 150px;
+ 
+}
+
+@media (max-width: 600px) {
+    .registration{
+        width: 80vw;
+        margin-top: 20px;
+    
+        
+    } 
+}
